@@ -9,10 +9,10 @@
     --heading-font:'DM Sans', serif;
     --paragraph-font:'DM Sans', serif;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: #ffba98;
+    --nav-link-color: #aeae;
+    --nav-hover-link-color: #3CDBD3;
+    --nav-hover-background-color: #E8E288;
 }
 
 body {
