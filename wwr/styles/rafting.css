@@ -26,6 +26,25 @@ header {
     color: var(--primary-color);
     padding: 20px;
     font-family: var(--heading-font);
+    display:grid;
+    grid-template-columns: 40% 50%;
+}
+
+header > img {
+    display: flex;
+    justify-self: center;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration-line: none;
+    font-size: medium;
+    font-weight: 700;
 }
 
 p {
