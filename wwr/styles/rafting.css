@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     top: 300px;
     left: 150px;
-    background-color: rgba(53, 218, 221, 0.936);
+    background-color: rgba(255, 255, 255, 0.673);
     margin: 0 20px;
     width: 75%;
 }
@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* history section */
+.history {
+    display: inline-block;
+    padding: 4rem;
+}
 .history div {
     display: flex;
 }
@@ -103,46 +107,59 @@ h1, h2, h3, h4, h5, h6 {
 
 .history h2{
     padding: 10px;
-    margin-top: 200px;
     text-align: center;
+    margin: 1em;
 }
 
 /* figure */
 .image-display{
+    padding: 4rem;
     text-align: center;
-    margin: 2em; 
 }
 
 .image-display h2 {
     margin: 1em;
 }
+
 .image-display div {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
+
 figure img {
     height: 150px;
 }
 
 /* footer */
 footer {
-    display:flex;
-    border:1px red solid;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: var(--accent1-color);
+    padding: 1rem;
+}
+
+footer p {
+    text-align: center;
+    grid-column-start: 2;
+    color:#000;
+}
+
+
+footer div {
+    display: flex;
+    justify-content:center;
     align-items: center;
+    grid-column-start:3;
+    gap: 1rem;
+
 }
 
 footer a {
     text-decoration: none;
 }
 
-footer div {
-   
-   
-}
-
 footer img {
     text-decoration: none;
-    width: 50px;
+    width: 25px;
 }
