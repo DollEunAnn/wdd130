@@ -113,12 +113,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* figure */
 .image-display{
+    margin-bottom: 5rem;
     padding: 4rem;
     text-align: center;
 }
 
 .image-display h2 {
-    margin: 1em;
+    margin: 2em;
 }
 
 .image-display div {
