@@ -294,6 +294,7 @@ button:hover {
 
 .text-name {
     font-weight: bold;
+    margin: 0;
 }
 
 .text-caption {
@@ -302,4 +303,17 @@ button:hover {
 
 .employee-display {
     margin-top: 5rem;
+}
+
+.employee-display img {
+    width: 250px;
+}
+
+.employee-display p {
+    padding: 0;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
 }
