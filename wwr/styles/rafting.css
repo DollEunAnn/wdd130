@@ -47,7 +47,7 @@ nav {
 
 nav > a {
     text-decoration-line: none;
-    font-size: medium;
+    font-size: large;
     font-weight: 700;
 }
 
@@ -401,3 +401,36 @@ button:hover {
     border:#000 solid 1px;
     text-decoration: none;
 }
+
+/* Table Component */
+.table-component {
+    padding: 2rem 0;
+    width:75%;
+    margin: auto;
+}
+.table-component table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px var(--accent1-color) solid;
+    margin-bottom: 2rem;
+  }
+
+  .table-component th {
+    border: var(--primary-color) solid 2px;
+    padding: 5px;
+  }
+
+  .table-component td {
+    border: 2px var(--primary-color) solid;
+    padding: 5px;
+  }
+
+  .table-component thead {
+    background-color: var(--accent1-color);
+  }
+
+  .title {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
