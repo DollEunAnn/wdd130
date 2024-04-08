@@ -50,6 +50,7 @@ nav>a {
     text-decoration-line: none;
     font-size: large;
     font-weight: 700;
+    color: var(--primary-color);
 }
 
 p {
@@ -480,7 +481,7 @@ button:hover {
 /* Newsletter */
 .newsletter {
     border: 1px rgba(9, 9, 9, 0.294) solid;
-    margin: 5rem;
+    margin: 0 5rem 5rem;
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -492,8 +493,7 @@ button:hover {
 
 .newsletter form {
     border-style: none;
-    padding: 0;
-    margin: 0;
+    padding:0;
 }
 
 .newsletter label {
@@ -506,5 +506,65 @@ button:hover {
 .newsletter input {
     border-style: none;
     border-bottom: var(--accent1-color) 2px solid;
-    width: 300px;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.newsletter button {
+    color : var(--primary-color);
+}
+
+.margin-3rem {
+    margin: 3rem;
+}
+
+/* full width image */
+.home-hero {
+    position: relative;
+}
+
+.home-hero h1 {
+    position: absolute;
+    padding: 30px;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: xxx-large;
+}
+
+.home-hero p {
+    position: absolute;
+    top: 250px;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+}
+
+.home-hero img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    float: right;
+    object-fit: cover;
+}
+
+.home-hero a {
+    position: absolute;
+    right: 800px;    
+    top:300px;
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.home-hero a:hover {
+    background-color: #fff;
+    color: var(--accent2-color);
 }
