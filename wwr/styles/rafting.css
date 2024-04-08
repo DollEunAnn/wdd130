@@ -264,7 +264,7 @@ legend {
 button {
     background-color: var(--accent2-color);
     padding: .5rem;
-    color: white;
+    color: var(--primary-color);
     border-radius: .5rem;
     font-size: medium;
     border: none;
